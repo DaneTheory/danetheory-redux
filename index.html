@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Branden Dane</title>
+        <meta name="author" content="Branden Dane">
+	    <meta name="description" content="Branden Dane. Developer. Designer. Professional Thinker. Caught all 150 pokemon.">
+	    <meta name="keywords" content="branden dane portfolio website drupal wordpress developer designer">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/global.css">
+        
+<!---FONTS-->
+	<link rel="stylesheet" href="fonts/fonts.css">	
+        
+<!--Vendor Fixes-->
+        <script type="text/javascript" src="../js/vendor/prefixfree.min.js"></script>
+        <script type="text/javascript" src="../js/vendor/modernizr-2.6.2.min.js"></script>
+        <!--[if lt IE 9]>
+	    <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
+
+<!--HTML5 BOLIERPLATE SCRIPTS-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+          
+<!--THREEJS BAKED SCRIPTS-->
+        <script type="text/javascript" src="../js/vendor/three.js/Three.js"></script>
+		<script type="text/javascript" src="../js/vendor/three.js/Detector.js"></script>
+        <script type="text/javascript" src="../js/vendor/threex/THREEx.screenshot.js"></script>
+		<script type="text/javascript" src="../js/vendor/threex/THREEx.FullScreen.js"></script>
+		<script type="text/javascript" src="../js/vendor/threex/THREEx.WindowResize.js"></script>
+		<script type="text/javascript" src="../js/vendor/threex.dragpancontrols.js"></script>
+		<script type="text/javascript" src="../js/vendor/three.js/OBJLoader.js"></script>
+        <script type="text/javascript" src="../js/vendor/three.js/meny.js"></script>
+        <script type="text/javascript" src="../js/jquery.spritely.js"></script>
+       
+        
+<!--HELPER BAKED SCRIPTS-->
+    <script type="text/javascript" src="../js/jquery.fittext.js"></script>
+    
+<!--FITTEXT JS SNIPPETS-->
+<script>
+  jQuery("").fitText();
+</script>    
+    
+</head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<!-- Pre-loader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+
+<div class="meny">
+        <div class="branden"><h2>Branden</h2></div><br><div class="dane"><h2>Dane</h2></div><br><div id="swinger"></div>
+  		    <ul class="home-menu">
+		        <li>
+			        <a href="#work" class="smoothscroll">Portfolio<br><div class="subtext">It Goes To Eleven</div></a>
+		        </li>
+		        <li>
+			        <a href="#about" class="smoothscroll">About Me<br><div class="subtext">Much Ado About Nothing</div></a>
+		        </li>
+		        <li>
+			         <a href="#services" class="smoothscroll">Blog<br><div class="subtext">Camelot Is A Silly Place</div></a>
+		       
+		        </li>
+			    <li>
+			         <a href="#contact" class="smoothscroll">Contact<br><div class="subtext">Ground Control, Major Tom</div></a>
+		        </li>
+		        <li>
+			        <a href="#contact" class="smoothscroll">Man Cave<br><div class="subtext">The Sandbox</div></a>
+		        </li>
+	        </ul>
+   
+</div>       
+
+		<div class="meny-arrow"></div>
+  
+  
+
+        
+       
+    	
+    <!--Dream Scene-->
+    <div id="clouds4"></div>
+    <div id="clouds3"></div>
+    
+    <div id="fisherman"></div>
+    
+    <div id="clouds2"></div>
+    <div id="clouds"></div>
+
+    <div id="goneFishin"></div>
+  
+    
+	<!-- info on screen display -->
+	<div id="info">
+		<div class="bottom" id="inlineDoc"></div> 
+	</div> 
+
+
+       <!-- three.js container -->
+    	<div id="container" class="contents"></div>
+
+<canvas id="canvas"></canvas>
+
+<!---------------------------------END OF BODY-------------------------------->
+<script type="text/javascript">
+
+		(function($) {
+			$(document).ready(function() {
+				
+			
+			
+				$('#clouds').pan({fps: 40, speed: 0.7, dir: 'left', depth: 20});
+				$('#clouds').spRelSpeed(2);
+				$('#clouds2').pan({fps: 40, speed: 1, dir: 'left', depth: 10});
+				$('#clouds2').spRelSpeed(10);
+				$('#clouds3').pan({fps: 50, speed: 1.1, dir: 'left', depth: 5});
+				$('#clouds3').spRelSpeed(15);
+				$('#clouds4').pan({fps: 55, speed: 1.5, dir: 'left', depth: 3});
+				$('#clouds4').spRelSpeed(30);
+				
+				
+			});
+		})(jQuery);
+	
+</script>
+<!-- PRELOADER CUSTOM JS -->
+<script type="text/javascript" src="../js/Preloader.js"></script>
+<!--MENU CUSTOM JS--> 
+<script type="text/javascript" src="../js/menu.js"></script>
+<!--THREEJS CUSTOM SCENE JS-->
+<script type="text/javascript" src="../js/ThreeJS.js"></script>
+<!-- GOOGLE ANALYTICS JS -->
+<script type="text/javascript" src="../js/GA.js"></script>
+<!-- ADDITIONAL HELPER SCRIPTS -->
+        <script type="text/javascript" src="../js/retina.min.js"></script>
+        <script type="text/javascript" src="..js/jquery.parallax.min.js"></script>
+        
+<!--REMOVE BEFORE GOING LIVE******AUTOUPDATE SCRIPT FOR LOCALHOST-->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':62182/autorefresh.js"></' + 'script>')</script>
+    </body>
+</html>
