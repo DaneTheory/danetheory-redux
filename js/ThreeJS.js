@@ -145,12 +145,10 @@ var container, stats;
             scene.add(ground);
             ground.receiveShadow = true;
             
+        }
 
-            //Particles
 
-		  
-		  }
-		  
+           
     
 
 		// animation loop
@@ -165,6 +163,7 @@ var container, stats;
 			// do the render
 			render();
 			update.camera();
+            update.particle();
 			 
 			
 

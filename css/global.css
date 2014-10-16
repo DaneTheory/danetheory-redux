@@ -436,12 +436,12 @@ ul.home-menu {
     max-width: 1920px; 
     max-height: 1080px; 
     z-index: -2;
-    background: url('../images/BG-DaneTheory.png');
+    background: url('../images/BG-Loop.gif');
     background-size:100% 100%;
 }
 #fisherman {
     position: absolute;
-    background: transparent url("../images/Fisherman.gif") no-repeat;
+   
     background-position: 60% 105%;
     width: 98%;
     min-height: 100%;
