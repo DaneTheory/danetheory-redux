@@ -126,6 +126,12 @@ textarea {
 *** END PRELOADER STYLES***/
 
 /**
+*** HOMEPAGE STYLES***/
+canvas { display:block; z-index:900; } /* To remove the scrollbars */
+/**
+*** END HOMEPAGE STYLES***/
+
+/**
 *** THREEJS BOILERPLATE STYLES***/
 * {margin:0;}
 
